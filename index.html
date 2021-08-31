@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>Triki html</title>
+		<link type="text/css" href="triki.css" rel="stylesheet">
+		<script src="triki.js"></script>
+	</head>
+	<body onload="init();">
+
+		<div id="contenedor_titulo">
+			<h1>Juego de triki:</h1>
+			<label id="label_turno">Turno:</label>
+			<input type="text" value="Jugador 1" id="InputTurno" readonly />
+			<input type="button" value="sortear primera jugada" id="boton_sorteo" />
+			<br>
+			<label >Jugador 1: O - Jugador 2 X</label>
+		</div>
+
+		<div id="contenedor_tabla">
+			<table id="tablaTriki">
+				<tr>
+					<td>
+						<input id="boton1" class="botonTriki" type="button" value="_">
+					</td>
+					<td>
+						<input id="boton2" class="botonTriki" type="button" value="_">
+					</td>
+					<td>
+						<input id="boton3" class="botonTriki" type="button" value="_">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input id="boton4" class="botonTriki" type="button" value="_">
+					</td>
+					<td>
+						<input id="boton5" class="botonTriki" type="button" value="_">
+					</td>
+					<td>
+						<input id="boton6" class="botonTriki" type="button" value="_">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input id="boton7" class="botonTriki" type="button" value="_">
+					</td>
+					<td>
+						<input id="boton8" class="botonTriki" type="button" value="_">
+					</td>
+					<td>
+						<input id="boton9" class="botonTriki" type="button" value="_">
+					</td>
+				</tr>
+
+			</table>
+		</div>
+	</body>
+</html>

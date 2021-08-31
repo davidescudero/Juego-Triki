@@ -1,0 +1,16 @@
+#tablaTriki {
+	margin-left: 400px;
+}
+#contenedor_titulo{
+	margin-left: 500px;
+}
+
+.botonTriki{
+	width: 120px;
+	height: 120px;
+	color: black;
+	margin: 5px 5px 5px 5px;
+	background-color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
